@@ -1,0 +1,28 @@
+.about {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.about p {
+  max-width: 64.4688644689vw;
+  padding-bottom: 23.0769230769vw;
+  padding-top: 2.5641025641vw;
+  font-size: 2.1978021978vw;
+  font-weight: 300;
+  line-height: 120%;
+
+  animation: slideFromRight 3s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

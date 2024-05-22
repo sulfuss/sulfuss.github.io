@@ -1,0 +1,31 @@
+.contacts {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 70vh;
+  min-height: auto;
+  flex-direction: column;
+  padding-top: 100 px;
+
+  .headline {
+    font-size: 6.5934065934vw;
+    font-weight: 300;
+    line-height: 96%;
+    /* opacity: 0; */
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.media {
+  font-size: 200%;
+  flex-direction: row;
+  margin-bottom: 150px;
+  transition: opacity 0.4s cubic-bezier(0.52, 0.24, 0.08, 1); /* Додано анімацію для зміни прозорості */
+  color: #fff;
+}
+.media a:hover {
+  opacity: 0.8;
+}
